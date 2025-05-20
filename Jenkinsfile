@@ -7,7 +7,7 @@ pipeline {
     // Définit les outils à mettre à disposition dans le PATH pendant l'exécution
     tools {
         // Assurez-vous que 'Ant_1.10.x' correspond EXACTEMENT au nom configuré dans Jenkins -> Outils
-        ant 'Ant_1.10.15'
+        ant 'TP_Jenkins_Ant'
         // Ajoutez un JDK si votre projet en requiert un spécifique et qu'il est configuré dans Jenkins -> Outils
         // jdk 'AdoptOpenJDK-11'
     }
